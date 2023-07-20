@@ -35,6 +35,7 @@ export default function AutoComplete({ source }: Props) {
   return (
     <div className={styles.root}>
       <input
+        type="search"
         placeholder="Search"
         className={styles.input}
         value={inputValue}
